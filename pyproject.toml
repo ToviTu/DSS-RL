@@ -13,7 +13,8 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
 ]
 dependencies = [
-    "torch", "torchvision", "stable-baselines3", "gymnasium"
+    "torch==2.3.0", "torchvision==0.18", "stable-baselines3", "gymnasium", "sentence-transformers",
+    "datasets", "transformers", "trl", "ninja"
 ]
 
 [project.optional-dependencies]
